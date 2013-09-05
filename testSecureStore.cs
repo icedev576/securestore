@@ -75,7 +75,10 @@ UserDataTest loadedData = null;	// stores the user data, this is just an example
 		decryptedFile = Application.persistentDataPath + decryptedFile;
 		
 		//Create the secure store object:
+		// dont forget the set the password insede the SecureStore.cs
 		SecureStore store = new SecureStore();
+		//or alternativly use the other constructor
+		//SecureStore store = new SecureStore( "YourSecretPassword" );
 
 		// Testing the string encrypter:
 		Debug.Log( "plainText string: " + plainTextString );
