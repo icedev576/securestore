@@ -20,4 +20,4 @@ With this script you can easily encrypt and decrypt:
 You can directly serilalize objects into an encrypted file. Use this for store user data or anyting else.
 It is using AES-256 algorithm for encrypting, and SHA-256 algorithm for generating private key from password.
  
-Example scene and sript is included and covering all use-cases.
+Example scene and srcipt is included and covering all use-cases.
